@@ -1,12 +1,9 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React from 'react'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect
 } from "react-router-dom";
-
-import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 /* Component */
 
@@ -22,34 +19,23 @@ import PrivateRoute from './route/Private'
 import PublicRoute from './route/Public'
 
 import { AuthProvider } from "./Provider/AuthProvider";
-import { AuthContext } from "./Provider/AuthProvider"
 
 /* css */
 import './App.css';
 
-const auth = getAuth();
 
 function App() {
 
-
-
-
   return (
     <AuthProvider>
-
       <div className="App container">
         <Router>
           <Switch>
-
             <PublicRoute restricted={false} path="/" exact >
               <Home />
             </PublicRoute>
-
             <PublicRoute restricted={true} path="/login" component={Login} exact />
-
             <PrivateRoute path="/AdminAddProduct" component={AdminAddProduct} exact />
-
-
             <Route exact path="/:detailId"   >
               <Detail />
             </Route>
@@ -57,11 +43,6 @@ function App() {
             <Route path="*">
               <NoMatch />
             </Route>
-
-
-
-
-
 
           </Switch>
         </Router>

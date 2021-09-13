@@ -1,5 +1,6 @@
 
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, Fragment } from 'react'
+
 import {
     Link,
     useParams
@@ -7,13 +8,12 @@ import {
 import app from '../firebase';
 import { getFirestore } from "firebase/firestore";
 import { collection, getDocs } from "firebase/firestore";
-
+import arrow from "../images/arrow.png"
 const db = getFirestore();
 
 export default function Content() {
     let { detailId } = useParams();
     const [data, setData] = useState([]);
-    console.log("detailId", detailId);
 
     useEffect(async () => {
         try {
@@ -41,17 +41,27 @@ export default function Content() {
         }
     }, []);
 
-    console.log("data:", data);
     return (
-        <div class="d-flex justify-content-center">
-            <div className="row col-md-9 ">
-                <div className="profile-content" style={{ backgroundColor: "#907163" }}>
+        <Fragment>
+            <div className="back" style={{
+                position: "relative",
+                zIndex: 4,
+                left: 0,
+                top: 25
+            }}>
 
-                    {data.map(product => {
-                        console.log("resimmmm", product);
-                        return (
-                            <main key={product.id} class="container p-3">
-                                <div class="bg-light p-5 rounded">
+                <Link to="/" >
+                    <img src={arrow} height={25} /></Link>
+
+            </div>
+            <div className="d-flex justify-content-center">
+
+                <div className="row col-md-8 ">
+                    <div className="profile-content" >
+
+                        {data.map(product => {
+                            return (
+                                <main key={product.id} className="container p-3">
                                     <h1>{product.title}</h1>
 
                                     <br />
@@ -59,14 +69,17 @@ export default function Content() {
                                         <img src={product.postImages} style={{ height: 300 }} />
                                     </div>
                                     <br />
-                                    <p class="lead">  {product.content}</p>
+                                    <p className="lead">  {product.content}</p>
+                                    <br />
 
-                                </div>
-                            </main>
-                        );
-                    })}
+                                    <small style={{ fontWeight: 'bold' }}> Yayınlanma Tarihi:{product.postedDate}</small>
+
+                                </main>
+                            );
+                        })}
+                    </div>
                 </div>
             </div>
-        </div>
+        </Fragment >
     )
 }

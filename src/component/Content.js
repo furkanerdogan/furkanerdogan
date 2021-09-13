@@ -38,22 +38,21 @@ export default function Content() {
         }
     }, []);
 
-    console.log("data:", data);
     return (
 
         <div className="row col-md-9">
-            <div className="profile-content bg-secondary ">
+            <div className="profile-content  ">
 
                 {data.map(product => {
                     return (
-                        <main key={product.id} class="container p-3">
-                            <div class="bg-light p-5 rounded">
+                        <main key={product.id} className="container p-3 bg-secondary">
+                            <div className="bg-light p-5 rounded">
                                 <h1>{product.title}</h1>
                                 <small style={{ fontWeight: 'bold' }}> Yayınlanma Tarihi:{product.postedDate}</small>
                                 <br />
-                                <p class="lead content-post">  {product.content}</p>
+                                <p className="lead content-post">  {product.content}</p>
 
-                                <Link to={'/' + product.id} className="btn btn-dark rounded-0 btn-sm mr-4 ml-4 ">Ürüne Git</Link>
+                                <Link to={'/' + product.id} className="btn btn-dark rounded-0 btn-sm mr-4 ml-4 ">Devamı</Link>
                             </div>
                         </main>
                     );

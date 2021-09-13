@@ -24,33 +24,33 @@ export default function Login() {
     }
 
     return (
-        <div class="container">
+        <div className="container">
             <style>{'body { background-color: #4e73df; }'}</style>
-            <div class="row justify-content-center">
-                < div class="col-lg-6 col-md-6" >
-                    <div class="card o-hidden border-0 shadow-lg my-5">
-                        <div class="card-body ">
-                            <div class="p-5">
-                                <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">Giriş Yap</h1>
+            <div className="row justify-content-center">
+                < div className="col-lg-6 col-md-6" >
+                    <div className="card o-hidden border-0 shadow-lg my-5">
+                        <div className="card-body ">
+                            <div className="p-5">
+                                <div className="text-center">
+                                    <h1 className="h4 text-gray-900 mb-4">Giriş Yap</h1>
                                 </div>
-                                <form class="user" >
-                                    <div class="form-group p-2">
-                                        <input type="email" class="form-control form-control-user"
+                                <form className="user" >
+                                    <div className="form-group p-2">
+                                        <input type="email" className="form-control form-control-user"
                                             id="exampleInputEmail" aria-describedby="emailHelp"
                                             placeholder="Email Adresi..."
                                             onChange={e => setEmail(e.target.value)}
                                         />
 
                                     </div>
-                                    <div class="form-group p-2">
-                                        <input type="password" class="form-control form-control-user"
+                                    <div className="form-group p-2">
+                                        <input type="password" className="form-control form-control-user"
                                             id="exampleInputPassword" placeholder="Şifre..."
                                             onChange={e => setPassword(e.target.value)}
                                         />
                                     </div>
-                                    <div class="d-flex justify-content-center p-2">
-                                        <button type="button" class="btn btn-dark" onClick={MySignIn} >Gitiş Yap</button>
+                                    <div className="d-flex justify-content-center p-2">
+                                        <button type="button" className="btn btn-dark" onClick={MySignIn} >Gitiş Yap</button>
                                     </div>
                                 </form>
 

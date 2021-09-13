@@ -3,10 +3,7 @@ import { Route, Redirect } from 'react-router-dom';
 import { AuthContext } from "../Provider/AuthProvider"
 
 const PublicRoute = ({ component: Component, restricted, ...rest }) => {
-    console.log("1");
     const { user } = useContext(AuthContext);
-    console.log("uyser", user);
-    console.log("restricted", restricted);
 
 
     return (
