@@ -1,0 +1,77 @@
+  /* Profile container */
+  .profile {
+    margin: 20px 0;
+  }
+  
+  /* Profile sidebar */
+  .profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+  }
+  
+  .profile-userpic img {
+   justify-content: center;
+
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 40% !important;
+    border-radius: 20% !important;
+  }
+  
+  .profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+  }
+  
+  .profile-usertitle-job {
+  
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;    
+  }
+  .profile-userbuttons a {
+    
+    margin-right: 5px;    
+  }
+
+  
+  
+  /* Profile Content */
+  .profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+  }
+  .profile-userbuttons a{
+    color:black;
+  }
+  .profile-userbuttons a:hover{
+    color:gray;
+  }
+  .content-post{
+   
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden; 
+      width : 100%;
+      
+     
+      
+    
+  }

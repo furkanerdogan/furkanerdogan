@@ -1,0 +1,66 @@
+[debug] [2021-09-10T17:19:57.537Z] ----------------------------------------------------------------------
+[debug] [2021-09-10T17:19:57.539Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\win\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-10T17:19:57.540Z] CLI Version:   9.13.0
+[debug] [2021-09-10T17:19:57.540Z] Platform:      win32
+[debug] [2021-09-10T17:19:57.540Z] Node Version:  v15.14.0
+[debug] [2021-09-10T17:19:57.541Z] Time:          Fri Sep 10 2021 20:19:57 GMT+0300 (GMT+03:00)
+[debug] [2021-09-10T17:19:57.541Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-10T17:19:57.547Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-10T17:19:57.548Z] > authorizing via signed-in user (furkanerdogannnn@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Win\Desktop\furkanerdoganblog\my-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-10T17:20:15.747Z] > refreshing access token with scopes: []
+[debug] [2021-09-10T17:20:15.748Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-10T17:20:15.961Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 10 Sep 2021 17:20:15 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-10T17:20:15.977Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-09-10T17:20:16.326Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-09-10T17:20:16.326Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2021-09-10T17:20:33.083Z] ----------------------------------------------------------------------
+[debug] [2021-09-10T17:20:33.085Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\win\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-09-10T17:20:33.085Z] CLI Version:   9.13.0
+[debug] [2021-09-10T17:20:33.085Z] Platform:      win32
+[debug] [2021-09-10T17:20:33.085Z] Node Version:  v15.14.0
+[debug] [2021-09-10T17:20:33.086Z] Time:          Fri Sep 10 2021 20:20:33 GMT+0300 (GMT+03:00)
+[debug] [2021-09-10T17:20:33.086Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-10T17:20:33.093Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-10T17:20:33.093Z] > authorizing via signed-in user (furkanerdogannnn@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Win\Desktop\furkanerdoganblog\my-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-09-10T17:20:42.931Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-09-10T17:20:43.404Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-09-10T17:20:43.404Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
