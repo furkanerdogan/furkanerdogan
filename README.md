@@ -1,7 +1,7 @@
 ### Hi there, I'm Furkan, 
 
 - I’m currently working on React.js, ReactNative and Django
-- I’m currently learning Anguler and C#
+- I’m currently learning Anguler and .Net(Api)
 - Ask me about anything
 
 
@@ -27,11 +27,8 @@
 <br />
 
 ---
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=furkanerdogan)](https://github.com/anuraghazra/github-readme-stats)<br />
-
-
-
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=furkanerdogan)](https://github.com/anuraghazra/github-readme-stats)
+<br />
 
 ![Furkan's GitHub stats](https://github-readme-stats.vercel.app/api?username=furkanerdogan&theme=dark&show_icons=true)
 
