@@ -1,7 +1,7 @@
 ### Hi there, I'm Furkan, 
 
 - I’m currently working on React.js, ReactNative and Django
-- I’m currently learning Anguler and .Net(Api)
+- I’m currently learning Anguler and .Net
 - Ask me about anything
 
 
