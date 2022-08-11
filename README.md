@@ -13,13 +13,6 @@
 
 <br />
 
-
-
-
-flat-square
-for-the-badge
-
-
 ### Skills & Competences:
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white)
