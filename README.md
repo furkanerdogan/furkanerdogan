@@ -44,14 +44,8 @@
 <br />
 
 ---
-<style>
-.div {
-  border: 5px outset red;
-  background-color: lightblue;
-  text-align: center;
-}
-</style>
-<div class="div" align="center">
+
+<div display="flex" align="center">
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=furkanerdogan)](https://github.com/anuraghazra/github-readme-stats)
 <br />
